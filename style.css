@@ -138,3 +138,44 @@ body {
     text-align: end;
     font-weight: 600;
 }
+
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.fourth-section .container {
+    display: flex;
+    gap: 64px;
+    background: #3882F6;
+    border-radius: 5px;
+    padding: 32px 128px;
+    color: #F9FAF8;
+    flex-wrap: wrap;
+}
+
+.left-section .main {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.left-section .secondary {
+    color: #E5E7EB;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+.right-section button {
+    font-family: Roboto, sans-serif;
+    color: #F9FAF8;
+    font-weight: 800;
+    background: #3882F6;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px white;
+    padding: 8px 32px;
+}
